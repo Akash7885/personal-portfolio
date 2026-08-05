@@ -8,7 +8,7 @@ import { motion, useMotionValue, useSpring } from 'framer-motion'
 export default function CustomCursor() {
   const [isHovering, setIsHovering] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
-  const [isTouch, setIsTouch] = useState(true) // assume touch until proven otherwise, so nothing extra mounts on mobile
+  const [isTouch, setIsTouch] = useState(true) 
   const dotX = useMotionValue(0)
   const dotY = useMotionValue(0)
   const ringX = useSpring(dotX, { damping: 25, stiffness: 300, mass: 0.5 })
