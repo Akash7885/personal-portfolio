@@ -5,7 +5,7 @@ Framer Motion. Every piece of personal content — name, education, internship
 experience, skills, and projects — is data-driven from a single file, sourced
 directly from Akash's resume.
 
-**Live demo:** <https://www.example.com>
+**Live demo:** <https://akash-portfolio-woad-eight.vercel.app/>
 
 ---
 
